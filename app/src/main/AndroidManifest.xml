@@ -16,6 +16,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BasketballActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sportsgamifiedapp.MainActivity" />
+        </activity>
+        <activity android:name=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sportsgamifiedapp.MainActivity" />
+        </activity>
+        <activity android:name=".RulesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sportsgamifiedapp.BasketballActivity" />
+        </activity>
+        <activity android:name=".TeamsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sportsgamifiedapp.BasketballActivity" />
+        </activity>
+        <activity android:name=".QuizActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sportsgamifiedapp.BasketballActivity" />
+        </activity>
+        <activity android:name=".LiveScoreActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sportsgamifiedapp.BasketballActivity" />
+        </activity>
     </application>
 
 </manifest>

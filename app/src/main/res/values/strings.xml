@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SportsGamifiedApp</string>
+    <string name="title_activity_basketball">BasketballActivity</string>
+    <string name="title_activity_teams">TeamsActivity</string>
 </resources>
