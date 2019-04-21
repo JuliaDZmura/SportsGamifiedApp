@@ -29,10 +29,10 @@
                     android:id="@+id/txt_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize = "35sp"
+                    android:textSize = "32sp"
                     android:gravity="center_horizontal"
                     android:fontFamily="Arial"
-                    android:text="Basketball Rules:" />
+                    android:text="Basketball Rules    " />
 
                 <ImageView
                     android:layout_width="80dp"
@@ -49,14 +49,69 @@
                 android:layout_height="wrap_content"
                 android:textSize = "20sp"
                 android:fontFamily="Arial"
-                android:text="The main goal of basketball is to throw the ball into the hoop to score points. A basketball team consists of 12 players (Point Guard, Defensive Guard, Center, Offensive forward and Defensive Forward) with only 5 on the court at any time. Substitutions can be made as many times as the team wants." />
+                android:text="The main goal of basketball is to throw the ball into the hoop to score points.
+
+                A basketball team consists of 12 players (Point Guard, Defensive Guard, Center, Offensive forward and Defensive Forward) with only 5 on the court at any time. Substitutions can be made as many times as the team wants." />
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/player_positions"
                 android:scaleType="fitXY"
                 android:id="@+id/iv2" />s
+
+            <TextView
+                android:id="@+id/txt_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="The court is rectangular and contains the following elements:" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/basketball_court"
+                android:scaleType="fitXY"
+                android:id="@+id/iv3" />s
+
+            <TextView
+                android:id="@+id/txt_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Game starts when the referee tips off (throws into the air) the ball at the court's halfway line." />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tipoff"
+                android:scaleType="fitXY"
+                android:id="@+id/iv4" />s
+
+            <TextView
+                android:id="@+id/txt_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Each game is split up into 4 twelve minute quarters. The ball can only be moved by dribbling (one hand on the ball) or passing." />
+
+            <TextView
+                android:id="@+id/txt_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="There are 3 scoring numbers for players. If a basket is made from outside of the 3 point arc on the court, the team gets 3 points. If a basket is made from inside the 3 point arc on the court, the team gets 2 points. Finally, a successful free throw " />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tipoff"
+                android:scaleType="fitXY"
+                android:id="@+id/iv5" />s
 
         </LinearLayout>
     </ScrollView>
