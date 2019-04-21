@@ -4,6 +4,230 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TeamsActivity">
+    tools:context=".RulesActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/main_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Arial"
+                    android:gravity="center_horizontal"
+                    android:text="Player Profiles"
+                    android:textSize="32sp" />
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="46dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nba" />s
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="Shaquille O’Neal"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivShaq"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shaq" />s
+
+            <TextView
+                android:id="@+id/txt_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Shaquille Rashaun 'Shaq' O'Neal, is a retired professional American basketball player who is a sports analyst on the television program Inside the NBA. He is considered one of the greatest players in National Basketball Association history. He is the fifth highest scoring NBA player by total career playoff points scored (5,250).
+" />
+
+            <TextView
+                android:id="@+id/txt_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="Teams"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            s
+
+            <TextView
+                android:id="@+id/txt_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Orlando Magic		1992-93, 1995-96
+Los Angeles Lakers   	1996-97, 2003-04
+Miami Heat		2004-05, 2007-08
+Phoenix Suns		2007-08, 2008-09
+Cleveland Cavaliers	2009-10
+Boston Celtics		2010-11
+"
+                />
+
+            <TextView
+                android:id="@+id/txt_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="NBA Championships"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="1999-00 with Los Angeles Lakers
+2000-01 with Los Angeles Lakers
+2001-02 with Los Angeles Lakers
+2005-06 with Miami Heat
+"
+                />
+
+            <TextView
+                android:id="@+id/txt_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="All-Star games"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="1993, 1994, 1995, 1996, 1997 (DNP), 1998, 2000 (MVP), 2001 (DNP), 2002 (DNP), 2003, 2004 (MVP), 2005, 2006, 2007, 2009 (MVP)
+
+"
+                />
+
+            //next profile, Stephen Curry
+
+            <TextView
+                android:id="@+id/txt_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="Stephen Curry"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/IvSteph"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/steph" />s
+
+            <TextView
+                android:id="@+id/txt_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Wardell Stephen Curry II is an American professional basketball player for the Golden State Warriors of the National Basketball Association. A six-time NBA All-Star, he has been named the NBA Most Valuable Player twice and won three NBA championships with the Warriors.
+" />
+
+            <TextView
+                android:id="@+id/txt_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="Teams"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            s
+
+            <TextView
+                android:id="@+id/txt_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Golden State Warriors,	2009-10 to 2018-19
+"
+                />
+
+            <TextView
+                android:id="@+id/txt_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="NBA Championships"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="2014-15 with Golden State Warriors
+2016-17 with Golden State Warriors
+2017-18 with Golden State Warriors
+"
+                />
+
+            <TextView
+                android:id="@+id/txt_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:text="All-Star games"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="2014, 2015, 2016, 2017, 2018, 2019
+
+"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
