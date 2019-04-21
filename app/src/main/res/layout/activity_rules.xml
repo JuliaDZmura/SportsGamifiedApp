@@ -129,7 +129,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/newDouble"
+                android:src="@drawable/newdouble"
                 android:scaleType="fitXY"
                 android:id="@+id/iv7" />s
 
