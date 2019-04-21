@@ -30,7 +30,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize = "32sp"
-                    android:gravity="center_horizontal"
                     android:fontFamily="Arial"
                     android:text="Basketball Rules    " />
 
@@ -49,9 +48,15 @@
                 android:layout_height="wrap_content"
                 android:textSize = "20sp"
                 android:fontFamily="Arial"
-                android:text="The main goal of basketball is to throw the ball into the hoop to score points.
+                android:text="The main goal of basketball is to throw the ball into the hoop to score points." />
 
-                A basketball team consists of 12 players (Point Guard, Defensive Guard, Center, Offensive forward and Defensive Forward) with only 5 on the court at any time. Substitutions can be made as many times as the team wants." />
+            <TextView
+                android:id="@+id/txt_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="A team consists of 12 players (Point Guard, Defensive Guard, Center, Offensive forward and Defensive Forward) with only 5 on the court at any time. Substitutions can be made as many times as the team wants." />
 
             <ImageView
                 android:layout_width="150dp"
@@ -104,14 +109,44 @@
                 android:layout_height="wrap_content"
                 android:textSize = "20sp"
                 android:fontFamily="Arial"
-                android:text="There are 3 scoring numbers for players. If a basket is made from outside of the 3 point arc on the court, the team gets 3 points. If a basket is made from inside the 3 point arc on the court, the team gets 2 points. Finally, a successful free throw " />
+                android:text="There are 3 scoring numbers for players. If a basket is made from outside of the 3 point arc on the court, the team gets 3 points. If a basket is made from inside the 3 point arc on the court, the team gets 2 points. Finally, a successful free throw results in the team getting 1 point - the number of free throws depend on the location of the foul." />
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/tipoff"
+                android:src="@drawable/points"
                 android:scaleType="fitXY"
                 android:id="@+id/iv5" />s
+
+            <TextView
+                android:id="@+id/txt_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="Some violations include double dribbling (two hands on the ball) and traveling (taking more than one step without bouncing the ball)." />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/newDouble"
+                android:scaleType="fitXY"
+                android:id="@+id/iv7" />s
+
+            <TextView
+                android:id="@+id/txt_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "20sp"
+                android:fontFamily="Arial"
+                android:text="After each basket, the ball is returned to the opposition. The game is won by wichever team has more points at the end of the time. If there is a tie at the end, another quarter is added until a winner is found." />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/win"
+                android:scaleType="fitXY"
+                android:id="@+id/iv8" />s
 
         </LinearLayout>
     </ScrollView>
