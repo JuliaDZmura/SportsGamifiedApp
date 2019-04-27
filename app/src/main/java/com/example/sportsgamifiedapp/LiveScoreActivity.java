@@ -16,6 +16,12 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+//LiveScoreActivity
+//LiveScoreActivity is a screen where users can view the score of an ongoing basketball game
+//is an implementation of the nba-api
+    //https://rapidapi.com/api-sports/api/api-nba?endpoint=5bb76d18e4b005bfb67b7951
+    //https://blog.rapidapi.com/nba-basketball-stats-api/
+
 public class LiveScoreActivity extends AppCompatActivity {
 
     @Override

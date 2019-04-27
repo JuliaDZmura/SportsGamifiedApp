@@ -2,13 +2,11 @@ package com.example.sportsgamifiedapp;
 
 public class LiveScoreResponse {
 
-    private LiveScoreGames games;
+    private Games games;
 
-    public LiveScoreGames getGames() {
+    public Games getGames ()
+    {
         return games;
     }
 
-    public void setGames(LiveScoreGames games) {
-        this.games = games;
-    }
 }

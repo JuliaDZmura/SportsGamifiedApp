@@ -6,6 +6,9 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
 
+//LiveScoreActivity
+//LiveScoreApi represents the api-nba web servers in our app
+
 public interface LiveScoreApi {
 
     @Headers({

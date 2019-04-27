@@ -1,6 +1,9 @@
 package com.example.sportsgamifiedapp;
 
-public class LiveScoreScore {
+//LiveScoreActivity
+//Score object is called by HTeam and VTeam objects
+
+public class Score {
 
     private String points;
 
@@ -8,7 +11,4 @@ public class LiveScoreScore {
         return points;
     }
 
-    public void setPoints(String points) {
-        this.points = points;
-    }
 }
